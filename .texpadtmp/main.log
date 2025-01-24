@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  7 JAN 2025 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  8 JAN 2025 08:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1656,7 +1656,7 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10.95> not availab
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 10.95pt on input line 11.
- (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/main.aux (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/Kapitel/2024-1.aux) (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/Kapitel/appendix.aux))
+ (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/main.aux (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/Kapitel/2024-1.aux) (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/Kapitel/appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -1779,7 +1779,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/main.bbl)
+ (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/main.bbl)
 Package biblatex Info: Reference section=0 on input line 11.
 Package biblatex Info: Reference segment=0 on input line 11.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1880,7 +1880,7 @@ Package translations Info: loading dictionary `translations-basic-dictionary' fo
 Package chemgreek Info: Activating mapping `textgreek' on line 11.
 
 Package hyperref Info: Link coloring OFF on input line 11.
- (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/main.out) (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/main.out)
+ (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/main.out) (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -2009,7 +2009,7 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <20.74> not availab
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 (Font)              scaled to size 20.74pt on input line 74.
- (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/main.toc)
+ (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -2063,7 +2063,7 @@ LaTeX Warning: Empty bibliography on input line 89.
 
 \openout2 = `Kapitel/appendix.aux'.
 
-(./Kapitel/appendix.tex) (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/main.aux (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/Kapitel/2024-1.aux) (/Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/Kapitel/appendix.aux))
+(./Kapitel/appendix.tex) (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/main.aux (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/Kapitel/2024-1.aux) (/Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/Kapitel/appendix.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2085,17 +2085,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  61282 strings out of 474116
- 1305476 string characters out of 5743682
- 2403983 words of memory out of 5000000
+ 1305860 string characters out of 5743682
+ 2404982 words of memory out of 5000000
  82680 multiletter control sequences out of 15000+600000
  704355 words of font info for 119 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  123i,20n,131p,1001b,7353s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb>
-Output written on /Users/juliushlawatsch/local_files/fd_a_skript/.texpadtmp/main.pdf (5 pages, 286353 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fira/FiraSans-Italic.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fira/FiraSans-Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on /Users/juliushlawatsch/local_files/git_repos/astro_abi_trainer/.texpadtmp/main.pdf (5 pages, 306466 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  14 named destinations out of 1000 (max. 500000)
  38954 words of extra memory for PDF output out of 42996 (max. 10000000)
 
