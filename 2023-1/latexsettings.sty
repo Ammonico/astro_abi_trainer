@@ -1,0 +1,204 @@
+\usepackage[utf8]{inputenc}
+\usepackage[main=ngerman, english]{babel} %Sprachunterstützung Deutsch, Englisch
+\usepackage{scrhack} %removes compatibility errors connected to scr document type
+
+%---------------------------------------------------------------------------------------------------
+% PAGE SETUP
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=25mm,
+	right=25mm,
+	top=25mm,
+	bottom=25mm
+}
+
+% \usepackage{arev}
+%\usepackage{cmbright}
+%\usepackage{libertine}
+%\usepackage[libertine,cmintegrals,cmbraces,vvarbb]{newtxmath}
+%\let\Bbbk\relax
+
+%\usepackage[scaled]{helvet}
+\usepackage[T1]{fontenc}
+%\renewcommand\familydefault{\sfdefault}
+
+%\usepackage{newpxmath}	% Serifenschrift für Text und Formeln laden
+%\let\Bbbk\relax
+%\usepackage[semibold,sfdefault]{sourcesanspro}% Source Sans Pro Font laden
+\usepackage[sfdefault]{FiraSans} %% option 'sfdefault' activates Fira Sans as the default text font
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+
+\usepackage{scrlayer-scrpage} %makes nice headers and footers
+\clearpairofpagestyles
+\ohead{\headmark}
+\lefoot*{\pagemark}
+\rofoot*{\pagemark}
+\setlength{\headheight}{15pt} %to prevent warning abt headheight too small
+
+
+\usepackage{lipsum}
+
+\parindent0cm
+
+%---------------------------------------------------------------------------------------------------
+% CITATION SETUP
+
+\usepackage[babel]{csquotes}
+\usepackage[
+backend=biber,
+style=apa
+]{biblatex}
+\DeclareLanguageMapping{german}{german-apa}
+
+
+
+\DefineBibliographyStrings{ngerman}{
+	andothers = {{et\,al\adddot}},
+}
+
+\addbibresource{mybib.bib}
+
+\AtEveryBibitem{\clearfield{urldate}}
+\AtEveryCitekey{\clearfield{urldate}}
+\AtEveryBibitem{\clearfield{urlyear}}
+\AtEveryCitekey{\clearfield{urlyear}}
+\AtEveryBibitem{\clearfield{urlmonth}}
+\AtEveryCitekey{\clearfield{urlmonth}}
+\AtEveryBibitem{\clearfield{issn}}
+\AtEveryCitekey{\clearfield{issn}}
+
+
+%\renewcommand{\thechapter}{\Roman{chapter}}
+%\renewcommand{\thesection}{\Alph{section}}
+%\renewcommand{\thesubsection}{\arabic{subsection}}
+\usepackage{enumitem} % provides user control over the layout of the three basic list environments: enumerate, itemize and description.
+\setlist[enumerate,1]{label=\alph*), ref=\alph*}
+\setlist[enumerate,2]{label=\roman*), ref=\roman*}
+
+\usepackage{pdfpages} % simplifies the inclusion of external multi-page PDF documents in LATEX documents
+\usepackage{amsmath,amssymb,amsfonts}
+
+% ---------------------------------------------------------
+% TYPESETTING
+\usepackage[
+    left = \glqq{},%
+    right = \grqq{},%
+    leftsub = \grq{},%
+    rightsub = \glq{}
+    ]{dirtytalk} %quotation marks
+%\usepackage{miller} % for Miller indices
+
+\usepackage{booktabs} % nice tables
+\renewcommand{\arraystretch}{1.2}
+\usepackage{multirow} % Zellen verschmelzen in Tabellen
+
+\newcommand{\fremdspr}[2]{#1: \textit{#2}}
+\usepackage[table,xcdraw]{xcolor}
+\definecolor{ubt_gruen}{RGB}{0,146,96}
+\definecolor{ubt_bg}{RGB}{235,235,228}
+\definecolor{ubt_orange}{RGB}{255,183,44}
+
+\usepackage[euler]{textgreek} %typeset greek letters w/o math mode
+\usepackage{fontawesome5} %typeset fancy symbols
+
+\usepackage{microtype} %minimale Verbesserungen für schönes Typesetting ohne overfull boxes
+
+\usepackage{acronym} %Abkürzungen
+\usepackage{tabto} % erlaubt flexible Tabstopps
+
+
+%---------------------------------------------------------------------------------------------------
+% GRAPHICAL TOOLS
+\usepackage{wrapfig} %wrapping figures
+\usepackage{booktabs} %tables
+\usepackage{marginnote} %margins settings
+\usepackage{graphicx} %Graphiken
+
+% Setze den Standard-Bilderpfad
+\graphicspath{{Bilder/}}
+
+\usepackage{caption} %exactly that
+\captionsetup{format = plain, indention = .5cm}
+\usepackage{sidecap} %caption aside the figure
+\usepackage{subcaption} %subfigures
+\usepackage{float} %more precise placement of figures etc
+
+
+
+%---------------------------------------------------------------------------------------------------
+% MATH TYPESETTING
+\usepackage{mathtools} % some tools to make math expressions look nicer
+\usepackage{amsmath} % math typesetting
+
+\usepackage{siunitx} %makes SI units pretty
+\let\qty\SI 		%some magic as siunitx and physics both use \qty
+\let\qty\relax
+\usepackage{physics}
+\sisetup{separate-uncertainty}
+\sisetup{detect-all} % use text font for units
+\sisetup{per-mode=fraction, fraction-function=\dfrac}
+\DeclareSIUnit\Bar{bar}
+\DeclareSIUnit\debye{D}
+\DeclareSIUnit\year{a}
+\DeclareSIUnit\astronomicalunit{AE}
+\DeclareSIUnit\parsec{pc}
+
+\sisetup{locale = DE}
+
+\usepackage[version=4]{mhchem}  % macht chemische Gleichungen und Isotope setzbar
+\usepackage{chemfig}
+
+\renewcommand\epsilon\varepsilon %schöneres Epsilon
+
+%---------------------------------------------------------------------------------------------------
+% REFERENCES
+\usepackage[hidelinks]{hyperref}
+\usepackage[german]{cleveref}
+\usepackage{qrcode}
+\usepackage{url}
+\PassOptionsToPackage{hyphens}{url}
+
+%---------------------------------------------------------------------------------------------------
+% plots & tikz
+
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{shapes,decorations,calc,angles,quotes,babel}
+\tikzset{
+	cross/.pic = {
+		\draw[rotate = 45] (-#1,0) -- (#1,0);
+		\draw[rotate = 45] (0,-#1) -- (0, #1);
+	},
+	pics/cross/.default =0.15
+}
+%\usepackage{pgfplots}
+
+%---------------------------------------------------------------------------------------------------
+% silence warnings
+%\usepackage{silence}
+
+%---------------------------------------------------------------------------------------------------
+%Abkürzungen
+
+\newcommand{\vgl}{vgl.\ }
+\newcommand{\sog}{sog.\ }
+\newcommand{\zB}{z.\,B.\ }
+\let\dh\relax
+\newcommand{\dh}{d.\,h.\ }
+\newcommand{\ua}{u.\,a.\ }
+
+%---------------------------------------------------------------------------------------------------
+%Boxen
+\usepackage[breakable, skins]{tcolorbox}
+
+\newtcolorbox{aufgabe}[1][]%
+{colback=ubt_bg,colframe=ubt_gruen,fonttitle=\sffamily\bfseries, coltitle=white, sharp corners, boxrule=2pt, title=Aufgabenstellung, after skip=65pt}
+
+\newtcolorbox{hinweis}%
+{colback=ubt_bg,colframe=gray,fonttitle=\sffamily\bfseries, coltitle=white, sharp corners, boxrule=2pt, title=Hinweis, after skip=65pt}
+
+
+
+
+

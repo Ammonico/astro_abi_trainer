@@ -1,0 +1,119 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{Cornelsen2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=99c6a6844c15c9832198e72214b4787f}{%
+           family={{Staatsministerium für Unterricht und Kultus}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=12195fadc12a41a8e437e29f41398fef}{%
+           family={Pehle},
+           familyi={P\bibinitperiod},
+           given={Tilman},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cb0d9735c503c2cea764b3d5637f1eca}{%
+           family={Engelmann},
+           familyi={E\bibinitperiod},
+           given={Lutz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cornelsen}%
+      }
+      \strng{namehash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{fullhash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{fullhashraw}{99c6a6844c15c9832198e72214b4787f}
+      \strng{bibnamehash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{authorbibnamehash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{authornamehash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{authorfullhash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{authorfullhashraw}{99c6a6844c15c9832198e72214b4787f}
+      \strng{editorbibnamehash}{23b96928bc13d837b967dfac38878b6e}
+      \strng{editornamehash}{23b96928bc13d837b967dfac38878b6e}
+      \strng{editorfullhash}{23b96928bc13d837b967dfac38878b6e}
+      \strng{editorfullhashraw}{23b96928bc13d837b967dfac38878b6e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2. Fassung}
+      \field{isbn}{978-3-464-54224-8}
+      \field{subtitle}{mit Merkhilfe Mathematik - Gymnasium Bayern}
+      \field{title}{Formelsammlung Naturwissenschaften}
+      \field{year}{2013}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{Cornelsen2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=99c6a6844c15c9832198e72214b4787f}{%
+           family={{Staatsministerium für Unterricht und Kultus}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=12195fadc12a41a8e437e29f41398fef}{%
+           family={Pehle},
+           familyi={P\bibinitperiod},
+           given={Tilman},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cb0d9735c503c2cea764b3d5637f1eca}{%
+           family={Engelmann},
+           familyi={E\bibinitperiod},
+           given={Lutz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cornelsen}%
+      }
+      \strng{namehash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{fullhash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{fullhashraw}{99c6a6844c15c9832198e72214b4787f}
+      \strng{bibnamehash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{authorbibnamehash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{authornamehash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{authorfullhash}{99c6a6844c15c9832198e72214b4787f}
+      \strng{authorfullhashraw}{99c6a6844c15c9832198e72214b4787f}
+      \strng{editorbibnamehash}{23b96928bc13d837b967dfac38878b6e}
+      \strng{editornamehash}{23b96928bc13d837b967dfac38878b6e}
+      \strng{editorfullhash}{23b96928bc13d837b967dfac38878b6e}
+      \strng{editorfullhashraw}{23b96928bc13d837b967dfac38878b6e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2. Fassung}
+      \field{isbn}{978-3-464-54224-8}
+      \field{subtitle}{mit Merkhilfe Mathematik - Gymnasium Bayern}
+      \field{title}{Formelsammlung Naturwissenschaften}
+      \field{year}{2013}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

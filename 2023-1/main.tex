@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper]{book}
+
+\usepackage{latexsettings} % Verweis auf Datei latexsettings.sty
+\usepackage{custom_commands}
+
+% Titelseite
+\title{Grundlagen der Fachdidaktik Physik}
+\author{Axel Enders}
+\date{\today}
+
+\begin{document}
+
+% Titelseite generieren
+\begin{titlepage}
+    \newgeometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm} %andere Seitengeometrie fr Titelseite 5.8.24 J.Hlawatsch
+	\vs{0.5cm}
+	\begin{figure}[h]
+	\centering
+	\includegraphics[scale=.1]{Logo_physikdidaktik_long.png}
+	% \caption{Meine Grafik}
+	\label{fig:Logo}
+	\end{figure}
+	
+	\vs{1cm}
+	\begin{center}
+	\Large \textbf{Bayreuther}
+	\bip\bip
+	\Huge \textbf{Abiturtrainer \\ Astrophysik}
+	\bip\bip
+	\Large
+	(Stand Februar 2025)
+	\end{center}
+
+	\vs{6cm}
+
+%	\begin{flushright}
+%		\textbf{Apl. Prof. Dr. Stefan Hilger} \\
+%			Didaktik der Mathematik  \\
+%			Katholische Universitaet Eichst\"att-Ingolstadt \\
+%			Ostenstrasse 26 - 28  \\
+%			85071 Eichst\"att \\
+%			Stefan.Hilger@ku.de \\
+%
+%	\vs{0.5cm}
+%
+%		\textbf{Prof. Dr. Axel Enders} \\
+%		\textbf{Julius B. Hlawatsch, M.Sc., M.Ed.}\\
+%		Lehrstuhl f\"ur Experimentalphysik XI und Didaktik der Physik  \\
+%		Universit\"at Bayreuth  \\
+%		Universit\"atstrasse 30  \\
+%		95440 Bayreuth  \\
+%		axel.enders@uni-bayreuth.de
+%	\end{flushright}
+
+\end{titlepage}
+
+%---------------------------------------------------------------------------------------------------------------------------------
+\newgeometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm} %andere Seitengeometrie fr Vorwort und ToC 5.8.24 J.Hlawatsch
+%---------------------------------------------------------------------------------------------------------------------------------
+\newpage
+
+\vs{3cm}
+\section*{Vorwort}
+
+\lipsum[2]
+
+\vfill
+\textbf{Hinweis zum Sprachgebrauch:} \\
+Uns liegt die gleichsame Ansprache und Einbindung aller Menschen, unabhängig von ihrer Geschlechtsidentität, sehr am Herzen. In diesem Skript verwenden wir dennoch das generische Maskulinum für Personen aller Geschlechtsidentitäten. Wir haben uns für diese Lösung entschieden, da sie für uns die beste ist, um die Lesbarkeit zu gewährleisten und den Vorgaben der Bayerischen Staatsregierung zu entsprechen.
+
+
+
+% Inhaltsverzeichnis
+\tableofcontents
+\newpage
+
+\restoregeometry % nutze ab jetzt Notizenrand rechts 5.8.24 J.Hlawatsch
+
+%\begin{ziele}
+%	Hier stehen Ziele	
+%\end{ziele}
+
+
+\include{Kapitel/2023-1}
+
+
+\newgeometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm} %ab jetzt wieder ohne Notizenrand
+% Literaturverzeichnis
+\printbibliography
+
+\include{Kapitel/appendix}
+
+\end{document}

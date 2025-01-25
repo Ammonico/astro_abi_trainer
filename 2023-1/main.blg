@@ -1,0 +1,28 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'main.blg'
+[157] biber-MSWIN64:340> INFO - === 
+[225] Biber.pm:420> INFO - Reading 'main.bcf'
+[410] Biber.pm:994> INFO - Found 1 citekeys in bib section 0
+[438] Biber.pm:4463> INFO - Processing section 0
+[454] Biber.pm:4654> INFO - Looking for bibtex file 'mybib.bib' for section 0
+[550] bibtex.pm:1713> INFO - LaTeX decoding ...
+[665] bibtex.pm:1519> INFO - Found BibTeX data source 'mybib.bib'
+[760] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[760] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[761] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'de-DE'
+[761] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
+[772] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[773] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[773] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'de-DE'
+[773] Biber.pm:4289> INFO - No sort tailoring available for locale 'de-DE'
+[775] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[778] bbl.pm:779> INFO - Output to main.bbl
+[778] Biber.pm:131> WARN - Duplicate entry key: 'JankMeyer' in file 'mybib.bib', skipping ...
+[778] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Nico\AppData\Local\Temp\biber_tmp_tgnF\a8094735c119eb7484f88d2d1d93d883_12256.utf8, line 84, warning: undefined macro "bsv"
+[779] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Nico\AppData\Local\Temp\biber_tmp_tgnF\a8094735c119eb7484f88d2d1d93d883_12256.utf8, line 143, warning: undefined macro "Springer"
+[779] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Nico\AppData\Local\Temp\biber_tmp_tgnF\a8094735c119eb7484f88d2d1d93d883_12256.utf8, line 149, warning: undefined macro "Springer"
+[779] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Nico\AppData\Local\Temp\biber_tmp_tgnF\a8094735c119eb7484f88d2d1d93d883_12256.utf8, line 214, warning: undefined macro "Deubner"
+[779] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Nico\AppData\Local\Temp\biber_tmp_tgnF\a8094735c119eb7484f88d2d1d93d883_12256.utf8, line 257, warning: undefined macro "Klett"
+[779] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Nico\AppData\Local\Temp\biber_tmp_tgnF\a8094735c119eb7484f88d2d1d93d883_12256.utf8, line 264, warning: undefined macro "Klett"
+[779] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Nico\AppData\Local\Temp\biber_tmp_tgnF\a8094735c119eb7484f88d2d1d93d883_12256.utf8, line 334, warning: undefined macro "Deubner"
+[779] Biber.pm:133> INFO - WARNINGS: 8

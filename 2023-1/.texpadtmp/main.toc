@@ -1,0 +1,4 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Abituraufgabe 2024-1}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Fachliche Grundlagen}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Musterlösung}{5}{section.1.2}%
